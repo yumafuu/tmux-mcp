@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "dev": "deno run --allow-all main.ts",
+    "start": "deno run --allow-all main.ts"
+  },
+  "imports": {
+    "@mizchi/mcp-helper": "jsr:@mizchi/mcp-helper@^0.0.4",
+    "@modelcontextprotocol/sdk": "npm:@modelcontextprotocol/sdk@1.5.0",
+    "zod": "npm:zod@3.24.2",
+    "dax": "jsr:@david/dax@^0.42.0"
+  },
+  "compilerOptions": {
+    "strict": true
+  }
+}
