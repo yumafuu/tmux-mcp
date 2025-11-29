@@ -145,7 +145,7 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
   "mcpServers": {
     "tmux": {
       "command": "deno",
-      "args": ["run", "--allow-all", "/path/to/tmuxmcp/main.ts"]
+      "args": ["run", "--allow-all", "jsr:@yumafuu/tmux-mcp"]
     }
   }
 }
