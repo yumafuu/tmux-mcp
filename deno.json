@@ -2,6 +2,7 @@
   "name": "@yumafuu/tmux-mcp",
   "version": "0.1.0",
   "exports": "./main.ts",
+  "license": "MIT",
   "tasks": {
     "dev": "deno run --allow-all main.ts",
     "start": "deno run --allow-all main.ts"
