@@ -35,7 +35,7 @@ deno task start
 Or directly:
 
 ```bash
-deno run --allow-all main.ts
+deno run --allow-run=tmux --allow-env --allow-read main.ts
 ```
 
 ### Available Tools
@@ -145,7 +145,7 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
   "mcpServers": {
     "tmux": {
       "command": "deno",
-      "args": ["run", "--allow-all", "jsr:@yumafuu/tmux-mcp"]
+      "args": ["run", "--allow-run=tmux", "--allow-env", "--allow-read", "jsr:@yumafuu/tmux-mcp"]
     }
   }
 }
